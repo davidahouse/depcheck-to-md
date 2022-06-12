@@ -1,0 +1,11 @@
+pullrequests:
+  tasks:
+    - id: pr-standards
+      config:
+        prMilestoneCheck: true
+    - id: lint-nodejs
+releases:
+  published:
+    tasks:
+      - id: release-notes
+      - id: npm-publish
